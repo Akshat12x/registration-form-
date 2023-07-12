@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+</style>
+<body>
+
+ 
+    <div class="loader"></div>
+
+    <h1>Registration Form</h1>
+    <hr>
+    <h2>Get Register here and connect us</h2>
+    <label for="name">Name :</label>
+    <input type=" text" placeholder="enter name"><br><br>
+
+    <label for="phone no.">Phone no. :</label>
+    <input type="tel" placeholder="phone number"><br><br>
+
+    <label for="email">E-mail :</label>
+    <input type="text" placeholder="enter e-mail i.d."><br><br>
+
+    <label for="resume">Drop your Resume here :</label>
+    <input type="file"><br><br>
+
+    <form action="/action_page.php" method="get">
+    <label for="browsers">Choose a best time to call you :</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="morning">
+      <option value="afternoon">
+      <option value="evening"></option>
+    </datalist><br><br>
+</form>
+    <label for="using platform">Using platform :</label>
+    
+        <input type="radio" checked="checked" name="radio">
+        <span class="checkmark"></span>
+        <label class="container">Home</label>
+
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+        <label class="container">Office</label>
+      
+        <input type="radio" name="radio">
+        <span class="checkmark"></span>
+        <label class="container">Others</label><br><br>
+      
+        <label for="rating">Page rating :</label>
+        <input type="number">stars <br><br>
+
+        <label for="feedback">Enter your Feedback :</label>
+    <textarea rows="4" cols="50" name="comment" form="usrform"
+    placeholder="Enter your feedback here..."></textarea><br><br>
+
+    <input type="submit"> 
+    <input type="reset">
+
+    <footer>Thank you for visiting the website by Akshat garg</footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
